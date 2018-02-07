@@ -5,6 +5,7 @@ import NavBar from '../template/navbar'
 import Content from '../content/content'
 import Cart from "../cart/cart"
 import CartDetails from '../cart-details/cart-details'
+import Footer from '../template/footer'
 
 class App extends Component {
 
@@ -16,11 +17,7 @@ class App extends Component {
                 <Cart/>
                 <Content/>
                 <CartDetails/>
-                <footer className="footer bg-primary">
-                    <div className="container text-white">
-                        <span>lucas.script@gmail.com @ 2018</span>
-                    </div>
-                </footer>
+                <Footer/>
             </div>
         );
     }
