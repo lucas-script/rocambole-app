@@ -28,6 +28,7 @@ export const tokenAuthentication = (token) => (
 			})
 			.catch( err => {
 				dispatch(setIsLogged(false))
+				dispatch(setIsLoading(false))
 				toastr.error('Invalid Token', 'Please provide a valid token')
 			})
 	}
