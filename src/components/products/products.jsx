@@ -156,7 +156,7 @@ class Products extends React.Component {
 	render = () => {
 		return (
 			<BlockUi tag="div" blocking={this.state.isLoading}>
-				<div className="container-fluid" onKeyDown={this.handleShortcuts}>
+				<div className="container-fluid mb-3" onKeyDown={this.handleShortcuts}>
 					<div className="form-row justify-content-center mt-4 mb-4">
 						<div className="col-auto">
 							<select ref="filter" defaultValue="sku" className="custom-select mr-sm-2">
