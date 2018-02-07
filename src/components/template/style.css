@@ -1,0 +1,19 @@
+.login-form {
+    width: 100px;
+    max-width: 400px;
+    padding: 15px;
+    margin-left: auto;
+}
+
+.card-deck {
+    min-height: 300px;
+}
+
+.footer {
+    bottom: 0;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: 40px;
+    position: absolute;
+}
